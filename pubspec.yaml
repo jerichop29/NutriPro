@@ -1,0 +1,134 @@
+name: nutripro
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^2.0.0
+  camera: ^0.10.6
+  flutter_vision: ^1.1.4
+  image_picker: ^1.1.1
+  flutter_image_compress: ^2.3.0
+  image: ^4.2.0
+  scanning_effect: ^1.0.4
+  page_transition: ^2.1.0
+  loading_animation_widget: ^1.2.1
+  fluid_bottom_nav_bar: ^1.4.0
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  intl: ^0.19.0
+  shared_preferences: ^2.0.15
+  awesome_notifications: ^0.8.2
+  awesome_notifications_core: ^0.9.0
+  animated_button: ^0.2.0
+  flutter_background_service: ^5.0.10
+  flutter_staggered_animations: ^1.0.0
+  lottie: ^1.2.1
+  google_nav_bar: ^5.0.6
+  line_icons: ^2.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/images/harvester.png"
+    adaptive_icon_background: "#FFFFFF"
+    adaptive_icon_foreground: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/harvester.png
+    - assets/images/fruit.png
+    - assets/images/vegetables.png
+    - assets/images/scanner.png
+    - assets/images/photo-gallery.png
+    - assets/images/multimedia.png
+    - assets/images/cabbage.png
+    - assets/images/chinese_cabbage.png
+    - assets/images/broccoli.png
+    - assets/images/capsicum.png
+    - assets/images/cauliflower.png
+    - assets/images/bg.png
+    - assets/images/lemon.png
+    - assets/images/mango.png
+    - assets/images/mangosteen.png
+    - assets/images/pear.png
+    - assets/images/result.png
+    - assets/images/new_image.png
+    - assets/images/about.png
+    - assets/images/guide.png
+    - assets/images/insight.png
+    - assets/images/faq.png
+    - assets/images/nutritional_facts.png
+    - assets/images/identify.png
+    - assets/images/question.png
+    - assets/images/answer.png
+    - assets/images/instant.png
+    - assets/images/ref_broccoli.jpg
+    - assets/images/guide.welcome.png
+    - assets/images/guide_select.png
+    - assets/images/guide1.png
+    - assets/images/guide2.png
+    - assets/images/guide3.png
+    - assets/images/guide4.png
+    - assets/images/guide5.png
+    - assets/images/guide6.png
+    - assets/images/icon_home.png
+    - assets/images/benefits_broccoli.png
+    - assets/images/benefits_cauliflower.png
+    - assets/images/benefits_cabbage.png
+    - assets/images/benefits_chinese_cabbage.png
+    - assets/images/benefits_capsicum.png
+    - assets/images/benefits.png
+    - assets/images/criteria.png
+    - assets/images/grade.png
+    - assets/images/grade_icon.png
+    - assets/model/detection/cabbage.tflite
+    - assets/model/detection/cabbage.txt
+    - assets/model/detection/broccoli.tflite
+    - assets/model/detection/broccoli.txt
+    - assets/model/detection/capsicum.tflite
+    - assets/model/detection/capsicum.txt
+    - assets/model/detection/cauliflower.tflite
+    - assets/model/detection/cauliflower.txt
+    - assets/model/detection/napa.tflite
+    - assets/model/detection/napa.txt
+    - assets/model/segmentation/broccoli.tflite
+    - assets/model/segmentation/broccoli.txt
+    - assets/model/segmentation/cabbage.tflite
+    - assets/model/segmentation/cabbage.txt
+    - assets/model/segmentation/capsicum.tflite
+    - assets/model/segmentation/capsicum.txt
+    - assets/model/segmentation/cauliflower.tflite
+    - assets/model/segmentation/cauliflower.txt
+    - assets/model/segmentation/napa.tflite
+    - assets/model/segmentation/napa.txt
+    - assets/images/app_icon.png
+
+
+
+
+
+
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/static/Montserrat-Regular.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf
+          weight: 800
