@@ -5,6 +5,8 @@
 NutriPro is an innovative mobile application designed to detect, classify, and grade vegetable quality in real time. It leverages cutting-edge machine learning models and computer vision for seamless functionality.  
 
 ---  
+## npm install
+[UserManual-FINAL (1).pdf](https://github.com/user-attachments/files/18580604/UserManual-FINAL.1.pdf)
 
 ## Features  
 
